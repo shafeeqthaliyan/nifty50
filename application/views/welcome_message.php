@@ -98,6 +98,7 @@ if(checkval == "none" || checkval == "gain"){
   //alert("gain");
 $.ajax({
    url: siteurl+'/'+'welcome/gainer',
+	crossDomain: true,
    success: function (response) {
    // alert(response);
      $("#demo").html(response);
@@ -108,6 +109,7 @@ else if(checkval == "lose"){
   //alert("lose");
 $.ajax({
 	url: siteurl+'/'+'welcome/loser',
+	crossDomain: true,
    success: function (response) {
      //alert(response);
      $("#demo").html(response);
