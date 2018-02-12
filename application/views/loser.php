@@ -70,7 +70,7 @@ transform: rotateY(180deg);
 
 setTimeout(function() {
   location.reload();
-}, 300000);
+}, 30000);
 </script>
 <script>
 $("#gainersbtn").click(function(){
